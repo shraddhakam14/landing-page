@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Muffins</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Delicious Muffins</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#flavors">Flavors</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We specialize in creating delicious, freshly baked muffins made with love. Our muffins are perfect for any occasion!</p>
+        </section>
+
+        <section id="flavors">
+            <h2>Our Flavors</h2>
+            <div class="service">
+                <h3>Chocolate Chip</h3>
+                <p>Classic chocolate chip muffins that are soft and fluffy.</p>
+            </div>
+            <div class="service">
+                <h3>Blueberry</h3>
+                <p>Made with fresh blueberries, bursting with flavor!</p>
+            </div>
+            <div class="service">
+                <h3>Banana Nut</h3>
+                <p>Delicious banana muffins with a crunchy nut topping.</p>
+            </div>
+            <div class="service">
+                <h3>Lemon Poppy Seed</h3>
+                <p>Refreshing lemon muffins sprinkled with poppy seeds.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Delicious Muffins. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

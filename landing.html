@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Muffins</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            font-size: 22px; 
+        }
+
+        header {
+            background-color: #709df1fd;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        header img {
+            width: 250px; 
+            margin-bottom: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 24px; 
+        }
+
+        main {
+            padding: 30px;
+        }
+
+        section {
+            margin-bottom: 50px;
+            padding: 30px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        h2, h3 {
+            font-size: 28px; 
+        }
+
+        .service {
+            margin: 15px 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .service img {
+            width: 150px; 
+            margin-right: 20px;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            font-size: 18px; 
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 15px;
+            margin: 5px 0;
+            border: 1px solid #88c576;
+            border-radius: 5px;
+            font-size: 18px; 
+        }
+
+        button {
+            background-color: #d8544d;
+            color: white;
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 20px; 
+        }
+
+        button:hover {
+            background-color: #8668aa;
+        }
+
+        @media (max-width: 600px) {
+            nav ul li {
+                display: block;
+                margin: 5px 0;
+            }
+
+            .service {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" alt="Delicious Muffins Logo">
+        <h1>Delicious Muffins</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#flavors">Flavors</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We specialize in creating delicious, freshly baked muffins made with love. Our muffins are perfect for any occasion!</p>
+        </section>
+
+        <section id="flavors">
+            <h2>Our Flavors</h2>
+            <div class="service">
+                <img src="chocolatechip.jpg" alt="Chocolate Chip Muffin">
+                <h3>Chocolate Chip</h3>
+                <p> -Classic chocolate chip muffins that are soft and fluffy.</p>
+            </div>
+            <div class="service">
+                <img src="blueberry.jpg" alt="Blueberry Muffin">
+                <h3>Blueberry</h3>
+                <p> -Made with fresh blueberries, bursting with flavor!</p>
+            </div>
+            <div class="service">
+                <img src="banana-nut.jpg" alt="Banana Nut Muffin">
+                <h3>Banana Nut</h3>
+                <p> -Delicious banana muffins with a crunchy nut topping.</p>
+            </div>
+            <div class="service">
+                <img src="Strawberry Muffin.jpg" alt="Strawberry Muffin">
+                <h3>Strawberry Muffin</h3>
+                <p> -These light and tender muffins are packed to the brim with juicy fresh strawberries.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Our specialty is blueberry muffins, I'm interested in adding a new flavor to our menu. Any suggestions?" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Delicious Muffins. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
